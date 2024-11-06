@@ -1,10 +1,12 @@
-<?php 
-    session_start();
-    require_once("includes\header.php");
+<?php
+require_once($_SERVER["DOCUMENT_ROOT"]."/app/config/Directories.php");
+require_once("includes\header.php");
+session_start();
+?>
+<?php
+require_once("includes\\navbar.php");
 ?>
     
-    <!-- Navbar -->
-    <?php require_once("includes\\navbar.php"); ?>
 
     <!-- Hero Section -->
     <div class="container-fluid bg-primary text-white text-center py-5">
@@ -104,6 +106,6 @@
     </footer>
 
     <!-- Bootstrap 5 JS Bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <?php require_once("includes/footer.php")?>
 </body>
 </html>
