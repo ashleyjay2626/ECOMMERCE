@@ -27,7 +27,7 @@ require_once("includes\\navbar.php");
                             if(isset($messErr)){
                             ?>
                     <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                            <strong>Holy guacamole!</strong> lagi kanalang mali.
+                            <strong>Holy guacamole!</strong> Sorry Wrong UwU.
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                                 <?php 
