@@ -29,7 +29,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 
         if($stmt->execute()){
             header("location: /registration.php");
-            $_SESSION["tama"]="All goods";
+            $_SESSION["tama"]="SUCCESS";
             exit;
         } else { 
             header("location: /registration.php");

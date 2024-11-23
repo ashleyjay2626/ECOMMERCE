@@ -11,7 +11,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $productId = $_POST["id"];
 
     try {
-        $sql = "DELETE FROM products WHERE products.id = :p_id"; //delete query here
+        $sql = "DELETE FROM `products` WHERE products.id = :p_id"; //delete query here
         $stmt = $conn->prepare($sql);
         $stmt->bindParam(':p_id', $productId);
         $stmt->execute();
