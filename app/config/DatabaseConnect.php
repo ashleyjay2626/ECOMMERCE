@@ -1,11 +1,22 @@
 <?php
 
 class DatabaseConnect{
-        private $host = "localhost";
+
+        /*private $host = "localhost";
         private $database = "ecommerce";
         private $dbusername = "root";
         private $dbpassword = "";
-        private $conn = null;
+        private $conn = null;*/
+
+
+         private $host = " localhost";
+         private $database = "ecommerce_aravelo";
+         private $dbusername = "aravelo";
+         private $dbpassword = "A124^elo_2024";
+         private $conn = null;
+
+
+        
 
     public function connectDB(){
         
